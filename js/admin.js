@@ -19,28 +19,28 @@ let itemEight = document.querySelector("ul div:nth-child(8)")
 let allItems = document.querySelectorAll("ul div")
 
 itemOne.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/admin.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/index.html"
 }
 itemTwo.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/settings.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/settings.html"
 }
 itemThree.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/profile.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/profile.html"
 }
 itemFour.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/projects.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/projects.html"
 }
 itemFive.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/Courses.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/Courses.html"
 }
 itemSix.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/friend.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/friend.html"
 }
 itemSeven.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/file.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/file.html"
 }
 itemEight.onclick = function () {
-    location.href = "file:///E:/full%20projects/admin%20page/plan.html"
+    location.href = "file:///C:/Users/FreeComp/Documents/secproject/plan.html"
 }
 
 
