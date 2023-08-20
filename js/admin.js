@@ -19,28 +19,28 @@ let itemEight = document.querySelector("ul div:nth-child(8)")
 let allItems = document.querySelectorAll("ul div")
 
 itemOne.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/index.html"
+    location.href = "index.html"
 }
 itemTwo.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/settings.html"
+    location.href = "settings.html"
 }
 itemThree.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/profile.html"
+    location.href = "profile.html"
 }
 itemFour.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/projects.html"
+    location.href = "projects.html"
 }
 itemFive.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/Courses.html"
+    location.href = "Courses.html"
 }
 itemSix.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/friend.html"
+    location.href = "friend.html"
 }
 itemSeven.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/file.html"
+    location.href = "file.html"
 }
 itemEight.onclick = function () {
-    location.href = "file:///C:/Users/FreeComp/Documents/secproject/plan.html"
+    location.href = "plan.html"
 }
 
 
