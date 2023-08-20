@@ -1,0 +1,89 @@
+:root {
+    --mainFont:'Cairo', sans-serif;
+    --mainColor:#f1f5fb;
+    --mainTrans:0.5s ease;
+    --secColor:#999494;
+    --thirdColor:rgb(0, 102, 255);
+    --fourthColor:#fc9a03;
+    --fivethColor:#00bb4f;
+}
+aside ul div.frame:nth-child(6)::before {
+    width: 100%;
+}
+
+.title.new {
+    grid-column: 1 / 6;
+    margin: 20px 0;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+.box .son:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+}
+.box .son:first-child img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.box .son:first-child p {
+    color: var(--secColor);
+    font-weight: bold;
+}
+.box .son:first-child div {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+.box .son:first-child div i {
+    color: var(--secColor);
+    padding: 10px;
+    background: #eee;
+    border-radius: 100%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.box .son:first-child div i:hover {
+    color: var(--thirdColor);
+}
+.box .son:nth-child(2) {
+    padding: 15px 0;
+    border: 2px solid ;
+    border-color: #eee transparent #eee transparent;
+}
+
+.box .son:nth-child(2) div {
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0;
+}
+.box .son:nth-child(2) div i {
+    font-size: 25px;
+    margin-right: 10px;
+    width: 35px;
+}
+.box .son:last-child {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.box .son:last-child p {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secColor);
+    margin-bottom: 10px;
+}
+.box .son:last-child div {
+    display: flex;
+    justify-content: space-between;
+}

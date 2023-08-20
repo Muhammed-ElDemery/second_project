@@ -1,0 +1,74 @@
+:root {
+    --mainFont:'Cairo', sans-serif;
+    --mainColor:#f1f5fb;
+    --mainTrans:0.5s ease;
+    --secColor:#999494;
+    --thirdColor:rgb(0, 102, 255);
+    --fourthColor:#fc9a03;
+    --fivethColor:#00bb4f;
+}
+aside ul div.frame:last-child::before {
+    width: 100%;
+} 
+.box {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+.box:last-of-type .content + p {
+    text-align: center;
+    color: var(--secColor);
+    font-weight: bold;
+}
+.box .son {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+    color: white;
+}
+.box .son::after {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 88%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid white;
+}
+.box .son h1 {
+    position: relative;
+}
+.box .son h1::after {
+    content: "$";
+    position: absolute;
+    left: -12px;
+    top: -10px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.box .content {
+    margin: 10px 0;
+}
+.box .content div {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+.box .content i {
+    margin-right: 10px;
+}
+.box .content p {
+    position: relative;
+}
+.cc-red {
+    color: rgb(212, 1, 1);
+}
+.cc-green {
+    color: var(--fivethColor);
+}

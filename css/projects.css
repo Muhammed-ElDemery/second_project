@@ -1,0 +1,108 @@
+:root {
+    --mainFont:'Cairo', sans-serif;
+    --mainColor:#f1f5fb;
+    --mainTrans:0.5s ease;
+    --secColor:#999494;
+    --thirdColor:rgb(0, 102, 255);
+    --fourthColor:#fc9a03;
+    --fivethColor:#00bb4f;
+    --sixthColor :rgb(157, 4, 4);
+}
+aside ul div.frame:nth-child(4)::before {
+    width: 100%;
+}
+.box {
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+}
+.box::after {
+    content: '15/6/2022';
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--secColor);
+    top: 15px;
+    right: 15px;
+}
+img:not(nav img) {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+.box img:nth-child(2){
+    transform: translateX(-30px);
+}
+.box img:nth-child(3){
+    transform: translateX(-60px);
+}
+.box img:nth-child(4){
+    transform: translateX(-90px);
+}
+.box img:nth-child(5){
+    transform: translateX(-120px);
+}
+.box div:first-child h2 + p, .box span + p {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secColor);
+}
+.box div:nth-child(3){
+    display: flex;
+    justify-content: end;
+}
+.box div:nth-child(3) {
+    padding: 20px 0;
+    border: 2px solid ;
+    border-color: #eee  transparent #eee transparent;
+}
+.box div:nth-child(3) p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.box div {
+    margin-bottom: 15px;
+}
+.box div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box span {
+    width: 75%;
+    display: block;
+    height: 8px;
+    border-radius: 10px;
+}
+.box:nth-of-type(10) span {
+    background: linear-gradient(to right , var(--sixthColor) 30% , #eee 30%);
+} 
+.box:nth-of-type(2) span {
+    background: linear-gradient(to right ,var(--fivethColor) 50% , #eee 50%);
+} 
+.box.two span {
+    background: var(--fourthColor);
+} 
+.box:nth-of-type(4) span {
+    background: linear-gradient(to right ,var(--thirdColor) 70% , #eee 70%);
+} 
+.box:nth-of-type(5) span {
+    background: linear-gradient(to right ,var(--sixthColor) 60% , #eee 60%);
+} 
+.box:nth-of-type(6) span {
+    background: linear-gradient(to right ,var(--fivethColor) 40% , #eee 40%);
+} 
+.box:nth-of-type(7) span {
+    background: linear-gradient(to right ,var(--fourthColor) 80% , #eee 80%);
+} 
+.box:nth-of-type(8) span {
+    background: linear-gradient(to right ,var(--thirdColor) 90% , #eee 90%);
+} 
+.box:nth-of-type(9) span {
+    background: linear-gradient(to right ,var(--thirdColor) 100% , #eee 10%);
+} 
+
