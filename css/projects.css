@@ -52,7 +52,8 @@ img:not(nav img) {
 }
 .box div:nth-child(3){
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .box div:nth-child(3) {
     padding: 20px 0;
@@ -62,7 +63,7 @@ img:not(nav img) {
 .box div:nth-child(3) p {
     font-size: 12px;
     font-weight: bold;
-    margin: 0 5px;
+    margin: 5px 5px;
 }
 .box div {
     margin-bottom: 15px;

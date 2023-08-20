@@ -126,7 +126,7 @@ input:focus {
     content: '';
     position: absolute;
     padding: 0px 6px;
-    top: -1000%;
+    top: -830%;
     font-weight: bold;
     border-radius: 5px;
 } 
@@ -318,7 +318,7 @@ input:focus {
     content: '';
     position: absolute;
     width: 2px;
-    height: 80%;
+    height: 60%;
     top: 22px;
     left: 9px;
     background: var(--thirdColor);
@@ -483,6 +483,7 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align:center;
 }
 .projects h1 {
     margin-bottom: 40px;
@@ -509,6 +510,12 @@ input:focus {
     ul p {
         display: none;
     }
+    .box.welcome .son:first-child img {
+        width: 140px;
+    }
+    .box.draft input {
+        margin-bottom: 10px;
+    }
     .head.frame {
         font-size: 13px;
         padding: 20px 0;
@@ -524,6 +531,10 @@ input:focus {
     aside ul div i.frame {
         font-size: 20px;
         margin: 10px 0;
+    }
+    .box.progress .content p{
+        font-size: 12px;
+        font-weight: bold;
     }
 }
 body.frame {

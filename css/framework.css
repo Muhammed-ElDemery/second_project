@@ -272,17 +272,27 @@ section nav img.frame {
     ul p {
         display: none;
     }
+    aside.frame {
+        padding :0;
+    }
+    section nav.frame {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-around;
+    }
     .head.frame {
         font-size: 13px;
         padding: 20px 0;
         position: relative;
     }
     aside .head h1.frame{
-        font-size: 13px;
+        font-size: 10px;
         padding: 20px 0;
     }
     aside ul div.frame {
-        padding: 0;
+        padding: 0 10px;
+        margin :15px 2px;
     }
     aside ul div i.frame {
         margin: 10px 0;
@@ -315,7 +325,7 @@ section nav img.frame {
         overflow: auto;
     }
     .projects .table {
-        width: 290%;
+        width: 1000px;
     }
     /*profile page media query*/
     .box.info {
@@ -339,6 +349,15 @@ section nav img.frame {
     .container.new {
         display: block;
         padding: 20px;
+    }
+    .activated i:first-child {
+        transform: translateX(15px);
+    }
+    .box.backup .content .son p {
+        font-size: 12px;
+    }
+    .box.activity .son div p:last-child {
+        font-size: 11px;
     }
 }
 @media (min-width : 481px) and (max-width:768px) {
